@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mariana Pantelic">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Image Search Engine</title>
+</head>
+<body>
+    <h1 class="mt-5 text-center">My Image Search Engine</h1>
+    <div class="container">
+        <div class="row">
+            <div class="input-group mb-3 mt-5 ">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" id="searchBtn">Search</button>
+                </div>
+                <input type="text" id="searchInp" class="form-control" placeholder="Search Word" aria-label="" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3 mt-2">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="colorSelect">Options</label>
+                </div>
+                <select class="custom-select" id="colorSelect">
+                    <option selected>Choose...</option>
+                    <option value="grayscale">grayscale</option>
+                    <option value="transparent">transparent</option>
+                    <option value="red">red</option>
+                    <option value="orange">orange</option>
+                    <option value="yellow">yellow</option>
+                    <option value="green">green</option>
+                    <option value="turquoise">turquoise</option>
+                    <option value="blue">blue</option>
+                    <option value="lilac">lilac</option>
+                    <option value="pink">pink</option>
+                    <option value="white">white</option>
+                    <option value="gray">gray</option>
+                    <option value="black">black</option>
+                </select>
+            </div>
+        </div>
+        <div class="row" id="resultDiv">
+           <!--  <div class="col-md-3 col-sm-12">
+                <div class="card p-3" style="width: 18rem;">
+                    <img class="card-img-top" src="https://cdn.pixabay.com/photo/2018/07/31/22/08/lion-3576045_1280.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div> -->
+            
+        </div>
+    </div>
+
+
+
+    <div class="modal fade bd-example-modal-lg" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <img id="bigImg" src="" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    "<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
