@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  margin-top: 150px;
+}
+body {
+  width: 100%;
+  font-size: 25px;
+}
+.queue {
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 100px;
+}
+.container,
+.container1 {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  padding: 15px 25px;
+  margin: 10px;
+}
+.values {
+  margin-top: 80px;
+}
+.values1 {
+  margin-top: 20px;
+}
+button {
+  font-size: 20px;
+  padding: 10px;
+}
+input {
+  padding: 10px;
+  font-size: 20px;
+}
+.index {
+  border: none;
+  font-size: 18px;
+  margin-right: 16px;
+}
