@@ -1,0 +1,40 @@
+body {
+  background-image: url(/mole-hill-3615125_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+h1,
+h2 {
+  color: greenyellow;
+  text-align: center;
+  font-weight: 700;
+}
+h2 {
+  display: inline-block;
+  margin-right: 20px;
+}
+h2:nth-of-type(1) {
+  margin-left: 40%;
+}
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(172, 255, 47, 0.549);
+  border: solid greenyellow;
+  margin: 20px;
+  border-radius: 50%;
+}
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 800px;
+  height: 800px;
+  margin: auto;
+}
+.mole {
+  background-image: url(/mole.png);
+  background-size: cover;
+  background-position: center;
+}
