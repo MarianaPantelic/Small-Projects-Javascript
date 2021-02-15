@@ -1,0 +1,64 @@
+body {
+  background: url(../img/money-3097319_1920.jpg);
+  font-size: 1.5rem;
+  color: white;
+}
+h1 {
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 3rem;
+}
+.inputs {
+  position: fixed;
+  width: 20%;
+  top: 15%;
+  right: 10%;
+}
+.inputs > div {
+  margin-bottom: 5%;
+}
+label,
+button {
+  font-size: 1.5rem;
+  display: block;
+}
+input {
+  padding: 2%;
+  font-size: 1.5rem;
+  width: 60%;
+  margin-top: 5%;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  display: flex;
+}
+button {
+  width: 60%;
+  margin-right: 18%;
+}
+#change {
+  margin-left: 3%;
+  width: 20%;
+}
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  position: fixed;
+  top: 40%;
+  left: 60%;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+figcaption {
+  font-size: 30px;
+  color: initial;
+  text-align: center;
+}
