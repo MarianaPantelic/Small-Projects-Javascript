@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+}
+main {
+  width: 40%;
+  height: 800px;
+  margin: 3% auto;
+  border: solid 2px palevioletred;
+  border-radius: 10px;
+}
+h1 {
+  margin-top: 3%;
+}
+#write {
+  display: block;
+  width: 30%;
+  padding: 10px;
+  font-size: 20px;
+  margin: 4% auto;
+}
+::placeholder {
+  color: palevioletred;
+}
+#add {
+  width: 20%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: pink;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 2% auto;
+  background-color: palevioletred;
+}
+.task {
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 20px;
+}
+.close {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+  padding: 10px;
+}
