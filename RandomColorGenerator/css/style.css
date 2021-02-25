@@ -1,0 +1,50 @@
+body {
+  width: 100%;
+}
+
+main {
+  width: 70%;
+  height: auto;
+  margin: 5% auto;
+}
+h1 {
+  text-align: center;
+}
+#choose {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+#number {
+  width: 200px;
+  font-size: 20px;
+  padding: 5px 10px;
+  display: block;
+}
+#add {
+  font-size: 20px;
+  background-color: aqua;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 20px 0 0 50px;
+}
+#colors {
+  display: flex;
+  flex-wrap: wrap;
+}
+.newColor {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 50px;
+}
+.colorName {
+  font-size: 40px;
+  margin: 70px 0 0 80px;
+}
+.close {
+  font-size: 20px;
+  margin: 10px 10px;
+}
