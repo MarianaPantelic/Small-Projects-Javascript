@@ -12,6 +12,15 @@ fetch("https://jsonplaceholder.typicode.com/users")
         "Company",
       ],
       data: [],
+      /*data: results.map(element => [
+        element.name,
+        element.username,
+        element.email,
+        element.address.city,
+        element.phone,
+        element.website,
+        element.company.name
+      ]) */
     };
     for (let i = 0; i < results.length; i++) {
       let array = [];
